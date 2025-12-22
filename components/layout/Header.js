@@ -4,10 +4,10 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="w-full bg-brown shadow-lg">
-      <div className="relative max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <header className="w-full bg-[#1e0506] shadow-lg">
+      <div className="relative max-w-7xl mx-auto bg-[#3a0b0e]  px-6 py-7 flex items-center justify-between rounded-b-4xl">
         {/* LEFT NAV */}
-        <nav className="flex items-center gap-8 text-white">
+        <nav className="flex items-center gap-8 text-white font-semibold">
           <Link href="/" className="hover:text-gold transition">
             Home
           </Link>
